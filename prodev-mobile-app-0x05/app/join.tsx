@@ -1,6 +1,8 @@
 import React from "react";
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
-import { styles } from "../styles/_joinstyle";
+// Make sure the file exists at this path and exports 'styles'
+// Update the path below to the correct location of your styles file if different
+import { styles } from "../styles/joinstyle";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 
